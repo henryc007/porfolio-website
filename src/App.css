@@ -1,0 +1,45 @@
+@font-face {
+  font-family: 'Simplifica';
+  src: url('./assets/fonts/simplifica.ttf') format('truetype');
+}
+
+.icon-rotates {
+  -moz-transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
+.icon-rotates.rotate {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.nav-link {
+  position: relative;
+}
+
+.nav-link::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 0%;
+  height: 3px;
+  border-radius: 30px;
+  background-color: whitesmoke; 
+  transition: width 0.3s ease; 
+}
+
+.nav-link:hover::after {
+  width: 98%; 
+}
+
+.nav-link#selected::after {
+  width: 98%; 
+}
+
+
+#selected {
+  color: var(--bs-nav-link-hover-color);
+  
+}
