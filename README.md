@@ -1,8 +1,17 @@
-# React + Vite
+# Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a web application for my porfolio. It showcases my projects, skills, and experiences in a clean and interactive design.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Responsive Design**: Portfolio is designed to work seamlessly on desktops mobile devices.
+- **Project Showcase**: Displays projects with descriptions, video demonstrations, and links.
+- **Skills Section**: Highlight skills and areas of expertise.
+- **About Me**: Contains an introduction with a brief bio and details about myself.
+
+## Technologies Used
+
+- **React**: A JavaScript library for building user interfaces.
+- **Vite**: A fast build tool that significantly improves the frontend development experience.
+- **Bootstrap**: A popular CSS framework for building responsive and mobile-first websites.
+- **Cloudinary**: A cloud-based image and video management platform for storing, managing, and delivering media assets efficiently.
