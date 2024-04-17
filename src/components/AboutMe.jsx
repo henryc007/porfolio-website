@@ -1,5 +1,5 @@
 const AboutMe = () => {
-    
+
     return (
         <>
         <div className="container d-flex align-items-center" style={{borderBottom: '3px solid black', marginTop: '40px'}}>
@@ -16,16 +16,14 @@ const AboutMe = () => {
         </div>
         <div className="container" style={{marginTop: '20px'}}>
             <p style={{fontSize: '20px', fontFamily: 'Roboto'}}>
-            Hello! My name's Henry Christiani, a soon-to-be Computer Science graduate eager to apply my academic 
-            background towards a software engineering, web development, or UX/UI design role. Throughout my 
-            time studying computer science, I’ve taken a wide array of courses that’ve given me a foundation 
-            on the subject. Some of these courses include web development, data structures, algorithms, software 
-            engineering, operating systems, networking, and databases. With a passion for problem-solving, 
-            learning, development, design, and collaboration, I’m excited to connect with professionals and/or 
-            work opportunities that share this enthusiasm. Please reach out to me directly through  
+            Hello! My name is Henry Christiani, an upcoming Computer Science graduate eager to apply my background and training towards a position in software 
+            engineering, web development, or UX/UI design. Throughout my studies, I have completed a diverse range of courses, including web development, data structures, 
+            algorithms, software engineering, operating systems, networking, and databases. These courses have provided me with the skills and knowledge necessary to excel 
+            in a variety of software-related roles. 
+            <br/><br/> With a passion for problem-solving, learning, development, design, and collaboration, I am excited to connect with professionals and explore 
+            work opportunities that align with this enthusiasm. You can reach out to me directly through  
             <a href={"mailto:henrychristiani07@gmail.com"} style={{textDecoration: 'none'}}> email </a>
-            or message me on <a href='https://linkedin.com/in/henry-christiani' target="_blank" style={{textDecoration: 'none'}}>LinkedIn </a>
-            if you'd like to know more.
+            or message me on <a href='https://linkedin.com/in/henry-christiani' target="_blank" style={{textDecoration: 'none'}}>LinkedIn</a>.
             </p>
         </div>
 

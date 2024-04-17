@@ -28,19 +28,23 @@ const ProfileProjects = () => {
                         <div className="card mb-5" key={video.id} style={{paddingLeft: '0px', paddingRight: '0px', boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)', transition: 'box-shadow 0.3s ease'}}>
                             <div key={video.id} className="col">
                                 <div className="card-header">
-                                    <a href={video.link} target='_blank' style={{textDecoration: 'none', color: 'black'}}><h2 className='card-title mt-2' style={{fontFamily: 'Playfair Display'}}>{video.title}</h2></a>
+                                    <a href={video.link} target='_blank' style={{textDecoration: 'none'}}>
+                                        <h2 className='card-title mt-2' style={{fontFamily: 'Playfair Display'}} title="Click to access website">
+                                            {video.title}
+                                        </h2>
+                                    </a>
                                 </div>
-                                <div onMouseOver={onMouseOver} onMouseOut={onMouseOut}>
-                                <a href={video.link} target='_blank' style={{textDecoration: 'none', color: 'black'}}>
-                                    <AdvancedVideo
+                                <div>
+                                    <AdvancedVideo 
+                                        onMouseOver={onMouseOver} 
+                                        onMouseOut={onMouseOut}
                                         ref={playerRef}
                                         loop
                                         width="100%"
                                         cldVid={cld.video(video.id)}
                                         plugins={[lazyload()]}
                                     />
-                                </a>
-                                <ProjectDescript videoValue={video.value} videoDescript={video.description}/> 
+                                    <ProjectDescript videoValue={video.value} videoDescript={video.description}/> 
                                 </div>
                             </div>
                         </div>

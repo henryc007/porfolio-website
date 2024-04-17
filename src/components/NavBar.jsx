@@ -10,7 +10,7 @@ const NavBar = ({ setSelected, currentlySelected }) => {
     return (
         <nav className="navbar navbar-expand-lg navbar-dark border-bottom border-dark border-3 rounded-bottom-4" style={{backgroundColor: '#00246B' }}>
             <div className="container-fluid">
-                <h1 className="navbar-brand" style={{ color: 'white', fontFamily: 'Simplifica, sans-serif', fontSize: '90px', paddingLeft: '20px' }}>Henry Christiani</h1>
+                <h1 className="navbar-brand" style={{ color: 'white', fontFamily: 'Simplifica, sans-serif', fontSize: '85px'}}>Henry Christiani</h1>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
